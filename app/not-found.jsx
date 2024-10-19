@@ -1,8 +1,8 @@
 'use client'
 import React from 'react';
-import gifNotFound from '../public/404.gif';
+import gifNotFound from '@image/images/404.gif';
 import styled from 'styled-components';
- 
+import Image from 'next/image'; 
 
  
 export default function notFound(){
@@ -14,7 +14,7 @@ export default function notFound(){
 			<h3>Esta página não esta disponível...</h3>
 			<a href='/'>Voltar ao Inicio</a>
 		</StyledComponent>
-  </>
+  </> 
 }
 
 
@@ -25,10 +25,10 @@ const StyledComponent = styled.section`
 	justify-content: center;
 	flex-direction: column;
 	min-height: 100vh;
-	background-image: url(${gifNotFound});
+	background-image: url("http://localhost:3000/_next/image?url=%2Fimages%2F404.gif&w=3840&q=75");
 	background-repeat: no-repeat;
 	background-position: center 50%;
-
+ 
 	* {
 		text-align: center;
 	}
@@ -46,12 +46,18 @@ const StyledComponent = styled.section`
 
 		&::after {
 			content: 'Erro: Página Não Encontrada';
-			bottom: 0;
+			bottom: 0%;
 			position: absolute;
 			text-align: center;
 			display: block;
 			color: var(--color-text-soft);
 			font-size: 1.5rem;
+			width: 80dvw;
+          @media(max-width:720px){
+
+		  bottom: -30%;
+		  
+		  }
 		}
 	}
 

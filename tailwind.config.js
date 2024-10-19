@@ -7,9 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      cursor: {
-        'my-cursor': 'url(/public/cursor.cur), default',
-      },
       backgroundImage: {
         'bg-mary': "url('/bg-mary-pc.png')",
         'mary-md': "url('/mary-md.png')",

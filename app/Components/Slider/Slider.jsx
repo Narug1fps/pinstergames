@@ -56,7 +56,7 @@ const Slider = () => {
             key={index}
             className="flex justify-center md:items-center items-start w-screen h-xl md:h-screen relative"
           >
-            <img className="w-screen" src={each} />
+            <Image className="w-screen" src={each} alt="" width={1920} height={1080} />
             <div className=" absolute flex top-3/4  ">
               <motion.div
                 initial={{ scale: 0.1, opacity: 0 }}
