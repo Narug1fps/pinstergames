@@ -25,7 +25,7 @@ const StyledComponent = styled.section`
 	justify-content: center;
 	flex-direction: column;
 	min-height: 100vh;
-	background-image: url("http://localhost:3000/_next/image?url=%2Fimages%2F404.gif&w=3840&q=75");
+	background-image: url("https://pinstergames.vercel.app/_next/image?url=%2Fimages%2F404.gif&w=3840&q=75");
 	background-repeat: no-repeat;
 	background-position: center 50%;
  
