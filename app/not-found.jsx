@@ -8,7 +8,7 @@ import Image from 'next/image';
 export default function notFound(){
  
   return < >
-  <StyledComponent>
+  <StyledComponent className=" selection:bg-red-600 ">
 			<h1>404</h1>
 			<h2>Ops! Parece que você está perdido!</h2>
 			<h3>Esta página não esta disponível...</h3>
