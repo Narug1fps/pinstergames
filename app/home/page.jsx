@@ -7,7 +7,7 @@ import CardNews from "../Components/CardNews/CardNews.jsx";
 export default function Home() {
   return (
     <>
-      <div className="body">
+      <div className="body bg-black">
         <div className="">
           <div className="z-10 ">
             {" "}

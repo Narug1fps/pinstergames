@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function MarySec() {
   return (
     <>
-      <section className="hidden md:block w-full py-12 md:py-24 lg:py-32 overflow-x-hidden">
+      <section className="hidden md:block w-full py-12 md:py-24 lg:py-32 overflow-x-hidden bg-black">
         <div className="w-full h-1 bg-gradient-to-r from-black via-red-600  via-red-600 via-red-600 to-black"></div>
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-6">
           <motion.div
