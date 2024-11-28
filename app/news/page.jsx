@@ -6,13 +6,15 @@ import HeaderNews from "../Components/HeaderNews/HeaderNews";
 import CardNews from "../Components/CardNews/CardNews";
 
 export default function page() {
-  return (
-    <div>
-      <HeaderNews />
-      <NewsPage />
-     
-      <CardNews />
-      <Footer />
-    </div>
+  return (<body className="bg-black">
+    
+      <div>
+        <HeaderNews />
+        <NewsPage />
+    
+        <CardNews />
+        <Footer />
+      </div>
+  </body>
   );
 }
