@@ -72,7 +72,6 @@ const Slider = () => {
                 <button className="  text-center z-10  md:w-48 md:h-12 w-24 h-8   rounded-full  md:text-xl  text-sm bold text-white  duration-500 ">
                   <Link
                     href="/games/mary"
-                    target="_blank"
                     className="group  btn undefined"
                   >
                     <span class="border-2 p-2 backdrop-blur rounded-full text-white  relative inline-flex overflow-hidden  ">
